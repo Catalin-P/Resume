@@ -583,7 +583,7 @@ body {
 .certifications-content {
   width: 100%;
   overflow: hidden;
-  padding: 2.5%;
+  padding: 2.5% 5%;
 
   display: grid;
   grid-template-columns: repeat(4, 3fr);
@@ -1984,6 +1984,8 @@ for tabs and large phones
 
   .certifications-content {
     grid-template-columns: repeat(2, 6fr);
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .certification-description h2 {
