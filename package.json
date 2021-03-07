@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Catalin-P/Resume/issues"
   },
-  "homepage": "https://github.com/Catalin-P/Resume#readme"
+  "homepage": "https://github.com/Catalin-P/Resume#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
