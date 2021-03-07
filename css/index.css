@@ -1312,39 +1312,6 @@ For devices with smaller width like mobile phone
   #contact {
     display: none;
   }
-  #breaker {
-    height: 50vh;
-    width: 200%;
-    background-color: #c70039;
-    opacity: 1;
-    animation: breakeranimate 2s linear;
-    display: none;
-    transition: all 0.4s ease;
-    z-index: 10;
-    position: fixed;
-  }
-  @keyframes breakeranimate {
-    0% {
-      transform: translateX(-100%);
-    }
-    50% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  }
-  @-webkit-keyframes breakeranimate {
-    0% {
-      transform: translateX(-100%);
-    }
-    50% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  }
   .header-content-box {
     z-index: 2;
     text-align: center;
@@ -1702,39 +1669,6 @@ for tabs and large phones
   }
   .contact {
     display: none;
-  }
-  #breaker {
-    height: 50vh;
-    width: 200%;
-    background-color: #c70039;
-    opacity: 1;
-    animation: breakeranimate 2s linear;
-    display: none;
-    transition: all 0.4s ease;
-    z-index: 10;
-    position: fixed;
-  }
-  @keyframes breakeranimate {
-    0% {
-      transform: translateX(-100%);
-    }
-    50% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
-  }
-  @-webkit-keyframes breakeranimate {
-    0% {
-      transform: translateX(-100%);
-    }
-    50% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(100%);
-    }
   }
   .header-content-box {
     z-index: 2;
