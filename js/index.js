@@ -166,5 +166,6 @@ $(function () {
   $(window).on("mousemove", cursormover);
   $(".menubar").hover(cursorhover, cursor);
   $("a").hover(cursorhover, cursor);
+  $(".skills-item span").hover(cursorhover, cursor);
   $(".navigation-close").hover(cursorhover, cursor);
 });
